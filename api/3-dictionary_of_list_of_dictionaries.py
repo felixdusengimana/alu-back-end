@@ -48,5 +48,6 @@ def main():
     users = get_all_users()
     export_all_todos_to_json(users)
 
+
 if __name__ == "__main__":
     main()
