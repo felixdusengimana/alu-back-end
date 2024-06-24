@@ -40,7 +40,10 @@ def main(employee_id):
         [completed for completed in tasks.values() if completed])
 
     print(
-        f"Employee {employee_name} is done with tasks({completed_tasks}/{total_tasks}):")
+        f"Employee {employee_name} is done with tasks "
+        f"({completed_tasks}/{total_tasks}):"
+    )
+
     for title, completed in tasks.items():
         if completed:
             print(f"\t {title}")
